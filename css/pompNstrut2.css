@@ -1,0 +1,155 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* top / top-background */
+#top-section{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 250px;
+	background:#fff;
+	text-align: center;
+}
+
+#top-photo img{
+	position: relative;
+	top: 20px;
+	left: 30px;
+	border: 4px solid #9b0803;
+	border-radius: 25px;
+	
+}
+
+#address{
+
+	margin-top: 50px;
+	
+}
+
+#name {
+
+	padding-top: 50px;
+	font-size: 60px;
+}
+
+/* nav bar */
+#nav-container {
+	position:relative;
+	width: 100vw;
+	padding: 0;
+}
+
+.nav-bar, a {
+	position: absolute;
+	left: 370px;
+	text-decoration: none;
+}
+
+.nav-bar a:hover{
+	color: #000;
+}
+
+li a{
+	position: relative;
+	left: 450px;
+	margin-left: 100px;
+	color:#fff;
+	font-size: 1.5rem;
+}
+
+li a:hover{
+	color: #000;
+}
+
+/* dog training photo */
+img #training{
+	position: fixed;
+}
+
+
+/* container with text on right side */
+
+#bottom-right {
+	position: relative;
+	top: 20px
+	width: 100%;
+	height: 600px;
+	background-color: #fff;
+}
+
+#right-side-container{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#color {
+	position: relative;
+	width: 600px;
+	height: 20px;
+	left: 0;
+	right: 20px;
+	background: #edeeef;
+	padding: 0;
+	margin: 0;
+}
+
+h5, #photo-text {
+	position: relative;
+	font-size: 25px;
+}
+
+.section-header {
+	color: #fff;
+	width: 100vw;
+}
+
+h4 {
+	background-color: #9b0803;
+	padding: 10px;
+	color: #fff;
+}
+
+#left-side {
+	position: relative;
+	background: #edeeef;
+	height: 700px;
+	top: 0px;
+}
+
+#inner-box {
+	position: relative;
+	background: #fff;
+	left: 10%;
+	width: 90%;
+	height: 100%;
+	margin-top: 20px;
+}
+
+#inner-box-text {
+	position:absolute;
+	top: 20px;
+	width: 260px;
+	margin-left: 10px;
+}
+
+#inner-box-bottom-text {
+	position: relative;
+	top: 370px;
+	margin: 20px;
+}
+
+hr {
+	position: relative;
+	top: 360px;
+}
+
+#photo-dog-5 {
+	position: absolute;
+	left: 315px;
+	top: 20px;
+	border: #edeeef 4px solid;
+	border-radius: 15px;
+}
